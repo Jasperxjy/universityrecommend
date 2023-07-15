@@ -1,4 +1,4 @@
-package com.example.university_recommend.entity;
+package com.university_recommend.entity;
 
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 

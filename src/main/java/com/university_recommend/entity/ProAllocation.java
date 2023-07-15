@@ -1,22 +1,24 @@
-package com.example.university_recommend.entity;
+package com.university_recommend.entity;
 
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import java.io.Serializable;
 
 /**
- * (ProMajAllocation)表实体类
+ * (ProAllocation)表实体类
  *
  * @author makejava
- * @since 2023-07-14 23:17:33
+ * @since 2023-07-14 23:17:00
  */
 @SuppressWarnings("serial")
-public class ProMajAllocation extends Model<ProMajAllocation> {
+public class ProAllocation extends Model<ProAllocation> {
     
     private String university;
     
-    private String major;
-    
     private String province;
+    
+    private Integer enrollmentnum;
+    
+    private String stuProportion;
     
     private String fScore;
     
@@ -39,20 +41,28 @@ public class ProMajAllocation extends Model<ProMajAllocation> {
         this.university = university;
     }
 
-    public String getMajor() {
-        return major;
-    }
-
-    public void setMajor(String major) {
-        this.major = major;
-    }
-
     public String getProvince() {
         return province;
     }
 
     public void setProvince(String province) {
         this.province = province;
+    }
+
+    public Integer getEnrollmentnum() {
+        return enrollmentnum;
+    }
+
+    public void setEnrollmentnum(Integer enrollmentnum) {
+        this.enrollmentnum = enrollmentnum;
+    }
+
+    public String getStuProportion() {
+        return stuProportion;
+    }
+
+    public void setStuProportion(String stuProportion) {
+        this.stuProportion = stuProportion;
     }
 
     public String getFScore() {

@@ -1,7 +1,7 @@
-package com.example.university_recommend.service;
+package com.university_recommend.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.university_recommend.entity.ProMajAllocation;
+import com.university_recommend.entity.ProMajAllocation;
 
 /**
  * (ProMajAllocation)表服务接口

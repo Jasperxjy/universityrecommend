@@ -1,7 +1,7 @@
-package com.example.university_recommend.dao;
+package com.university_recommend.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.university_recommend.entity.Universities;
+import com.university_recommend.entity.Universities;
 
 /**
  * (Universities)表数据库访问层

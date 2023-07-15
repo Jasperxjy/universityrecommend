@@ -1,7 +1,7 @@
-package com.example.university_recommend.service;
+package com.university_recommend.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.university_recommend.entity.Universities;
+import com.university_recommend.entity.Universities;
 
 /**
  * (Universities)表服务接口

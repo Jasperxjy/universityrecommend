@@ -13,7 +13,7 @@ spring:
   jackson:
       default-property-inclusion: non_null
 mybatis-plus:
-  type-aliases-package: com.example.university_recommend.entity
+  type-aliases-package: com.university_recommend.entity
 server:
   port: 8081
 

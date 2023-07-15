@@ -1,9 +1,9 @@
-package com.example.university_recommend.service.impl;
+package com.university_recommend.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.example.university_recommend.dao.UniversitiesDao;
-import com.example.university_recommend.entity.Universities;
-import com.example.university_recommend.service.UniversitiesService;
+import com.university_recommend.dao.UniversitiesDao;
+import com.university_recommend.entity.Universities;
+import com.university_recommend.service.UniversitiesService;
 import org.springframework.stereotype.Service;
 
 /**
